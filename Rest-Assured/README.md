@@ -1,6 +1,9 @@
 # README  
 
-## Dependencies  
+## Dependencies
+- Java equal to or greater than version 1.8
+- Maven 3.8.6
+- Git version 2.37.1
 - REST-Assured --> 4.5.0
 - TestNG --> 7.5
 - Fasterxml --> 2.13.2.1 
@@ -8,10 +11,11 @@
 ## Execution  
 
 1. It is necessary to clone the API to the local machine " git clone https://github.com/swagger-api/swagger-petstore "   
-2. The project was created maven so it has its pom file and it is necessary to download the dependencies:  
+2. To run the server " mvn package jetty:run "
+3. The project was created maven so it has its pom file and it is necessary to download the dependencies:  
 - Right click on the project --> Maven --> Update Project  
 - Right click on the project --> Run As --> Install Maven  
-3. Run the testng.xml file as TestNG Suite  
+4. Run the testng.xml file as TestNG Suite  
 
 ## Explain Approach  
 
